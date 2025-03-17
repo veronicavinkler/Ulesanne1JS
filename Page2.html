@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uudised</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+</head>
+<body>
+    <div class="menuMain">
+        <a href="homePage.html">Kodu</a>
+        <a href="Page1.html">Teekaart</a>
+        <a class="active" href="Page2.html">Uudised</a>
+        <a href="Page3.html">Treeningukava</a>
+        <button class="darkButton"  onclick=toggleDarkMode()>Tume Režiim</button>
+        <input type="text" id="searchBar" placeholder="Otsi uudiseid...">
+        <button id="searchButton">Otsi</button>
+    </div>    
+    <div id="content">
+        <div id="categoryNews">
+            <button id="All">Kõik uudised</button>
+            <button id="Tech">Tehnoloogia</button>
+            <button id="Spor">Sport</button>
+            <button id="Kult">Kultuur</button>
+        </div>
+        <div id="allNews">
+            <p>Siia tulevad kõik uudised.</p>
+        </div>
+        
+    </div>
+    <script src="uudised.js"></script>
+    <script src="darkMode.js"></script>
+</body>
+<footer>
+    <p>
+        Virumaa Kolledž
+        15.03.2025
+        Arukad Süsteemid ja Rakendusinfotehnoloogia
+        Veronica Vinkler
+        232498EDTR
+    </p>
+</footer>
+</html>

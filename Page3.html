@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personaalse treeningukava Koostamine</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+
+</head>
+<body>
+    <div class="menuMain">
+        <a  href="homePage.html">Kodu</a>
+        <a href="Page1.html">Teekaart</a>
+        <a href="Page2.html">Uudised</a>
+        <a class="active" href="Page3.html">Treeningukava</a>
+        <button class="darkButton" onclick=toggleDarkMode()>Tume Režiim</button>
+    </div>   
+    <h1>Praktika 1: JavaScript (Tähtaeg 08.03.2015)</h1>
+    <h2>Personaalse treeningukava koostamine</h2>
+    <p>Looge veebirakendus, mis võimaldab kasutajal koostada personaalse treeningukava.
+        Rakenduses saab sisestada oma treeningud,
+        määrata nende sageduse ja intensiivsuse ning salvestada andmed LocalStorage'i,
+        et need ei kaoks pärast lehe värskendamist.</p>
+    <p>Palun vali alt järgmine tegevus.</p>
+
+    <button id="lisaTreening">Treeningu Lisamine</button>
+    <button id="minuTreening">Minu Treeningud</button>
+    <button id="stat">Statistika</button>    
+    <div id="content"></div>
+    <script src="treeningukava.js"></script>
+    <script src="darkMode.js"></script>
+</body>
+<footer>
+    <p>
+        Virumaa Kolledž
+        16.03.2025
+        Arukad Süsteemid ja Rakendusinfotehnoloogia
+        Veronica Vinkler
+        232498EDTR
+    </p>
+</footer>
+</html>

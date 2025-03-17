@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arendaja Teekaart</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+</head>
+<body>
+    <div class="menuMain">
+        <a href="homePage.html">Kodu</a>
+        <a class="active" href="Page1.html">Teekaart</a>
+        <a href="Page2.html">Uudised</a>
+        <a href="Page3.html">Treeningukava</a>
+        <button class="darkButton" onclick=toggleDarkMode()>Tume Režiim</button>
+    </div>   
+    <div id="MainContent">
+        <h1>Praktika 1: JavaScript (Tähtaeg 08.03.2015)</h1>
+        <h2>Arendaja Teekaart</h2>
+        <p>Palun vali alt järgmine arendaja teekaardi vaatamiseks</p>
+    </div>
+    <div class="devCont" >
+        <button class="devButton" id="buttonfront">Frontend</button>
+        <button class="devButton" id="buttonback">Backend</button>
+        <button class="devButton" id="buttonfull">Fullstack</button>
+    </div>
+    <div id="content">
+        <p>*Siia ilmuvad alateemad nuppudena</p>
+    </div>
+    <div id="pilt"></div>
+    </div>
+    <script src="arendajaTeekaart.js"></script>
+    <script src="darkMode.js"></script>
+</body>
+<footer>
+    <p>
+        Virumaa Kolledž
+        15.03.2025
+        Arukad Süsteemid ja Rakendusinfotehnoloogia
+        Veronica Vinkler
+        232498EDTR
+    </p>
+</footer>
+</html>

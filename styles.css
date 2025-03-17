@@ -1,0 +1,179 @@
+/* CSS Variables for Colors */
+:root {
+    --primary-color: #235284;
+    --secondary-color: #3271a5;
+    --accent-color: #58afdd;
+    --light-color: #b8e2f4;
+    --dark-color: #000e14;
+    --background-color: #8dcfec;
+    --text-color: #235284;
+    --footer-color: #235284;
+    --footer-text-color: #b8e2f4;
+}
+
+/* General Styles */
+body {
+    padding: 25px;
+    outline: 2px dotted var(--primary-color);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pf {
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Menu Styles with Flexbox */
+.menuMain, .homeMenuMain {
+    background-color: var(--primary-color);
+    padding: 10px;
+    margin-bottom: 20px; /* Add spacing below the menu */
+    display: flex; /* Use Flexbox */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 10px; /* Add spacing between items */
+}
+
+.menuMain a, .homeMenuMain a, .darkButton, .darkButtonH {
+    color: var(--light-color);
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+}
+
+.menuMain a:hover, .homeMenuMain a:hover, .darkButton:hover, .darkButtonH:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.menuMain a.active, .homeMenuMain a.active {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+/* Button Styles */
+.devButton, button {
+    background-color: var(--accent-color);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.devButton {
+    font-size: 60%;
+}
+
+button:hover {
+    background-color: #6abce2;
+}
+
+/* Dropdown Styles */
+select {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    /* Smooth effect */
+    transition: background-color 0.3s ease; 
+}
+
+select:hover {
+    background-color: #6abce2;
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--footer-color);
+    color: var(--footer-text-color);
+    padding: 25px;
+    text-align: center;
+    /* Add spacing above the footer */
+    margin-top: 20px; 
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: var(--dark-color);
+    color: #2c7da0;
+}
+
+.dark-mode .menuMain, .dark-mode .homeMenuMain {
+    background-color: #003d5c;
+}
+
+.dark-mode .menuMain a, .dark-mode .homeMenuMain a, .dark-mode .darkButton, .dark-mode .darkButtonH {
+    color: #2a6f97;
+    background-color: #000E14;
+}
+
+.dark-mode .menuMain a:hover, .dark-mode .homeMenuMain a:hover, .dark-mode .darkButton:hover, .dark-mode .darkButtonH:hover {
+    background-color: #00293d;
+    color: #2c7da0;
+}
+
+.dark-mode select {
+    background-color: #00293d;
+    color: #2c7da0;
+}
+
+.dark-mode select:hover {
+    background-color: #00293d;
+}
+
+.dark-mode button {
+    background-color: #003d5c;
+    color: #2a6f97;
+}
+
+.dark-mode button:hover {
+    background-color: #00293d;
+}
+
+.dark-mode footer {
+    background-color: #00141F;
+    color: #2c7da0;
+}

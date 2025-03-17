@@ -1,0 +1,164 @@
+{
+    "Frontend": {
+        "Internet": {
+            "HTTP": {
+              "title":"HTTP",  
+              "description": "HTTP on Hyper Transfer Protocol, mis on fundamentaalne protokoll internetis. See aitab liigutada infot kliendi ja serveri vahel.",
+              "url":"https://youtu.be/wW2A5SZ3GkI?si=G68XOIrrJWX19Psc",
+              "pic":"internet.jpg"
+            },
+            "Domain name": {
+              "title":"Domeeni Nimi",
+              "description": "Domeeni Nimi on implementeeritud, jagatud andmebaas kus on kirjas IP aadressid ja neile määratud tähestiku kasutavad nimed.",
+              "url":"https://youtu.be/Y4cRx19nhJk?si=CSEBkobKo9FdqzDm",
+              "pic":"internet.jpg"
+          },
+            "Hosting": {
+              "title":"Veebimajutus",
+              "description": "Veebimajutus on ruumi rentimine internetis või brauseris.",
+              "url":"https://youtu.be/wXyQiBy0kjk?si=BHZDJF-yR5Hcl19b",
+              "pic":"internet.jpg"
+            }
+        },
+        "HTML": {
+            "SemHTML": {
+              "title":"Semantic HTML",
+              "description": "HTML 'tagide' kasutamine info edastamiseks.",
+              "url":"https://youtu.be/kX3TfdUqpuU?si=eewh_R0N559HW954",
+              "pic":"semHTML.jpg"
+            },
+            "Forms": {
+              "title":"Vormid",
+              "description": "Vormid HTML-is, mis võimaldavad kasutajal sisestada andmeid.",
+              "url":"https://youtu.be/VLeERv_dR6Q?si=1O_4GPNj2AcRUeTa",
+              "pic":"HTML.jpg"
+            },
+            "Accessibility": {
+              "title":"Juurdepääsetavus",
+              "description": "Veebilehtede juurdepääsetavuse tagamine, et need oleksid kasutatavad kõigile kasutajatele, sealhulgas puudega inimestele.",
+              "url":"https://youtu.be/rrCIDBEDXoM?si=tkNHf37i3tZ1x7t5",
+              "pic":"HTML.jpg"
+            }
+        },
+        "CSS": {
+            "Basics": {
+              "title":"CSS-i põhitõed",
+              "description": "CSS-i põhitõed, sealhulgas selektorid, omadused ja väärtused.",
+              "url":"https://youtu.be/Z4pCqK-V_Wo?si=5YCx1G1YIJF8VNQ3",
+              "pic":"css.jpg"
+            },
+            "Layouts": {
+              "title":"Lehekülgede paigutus",
+              "description": "CSS-i abil lehekülgede paigutuse loomine, sealhulgas Flexbox ja Grid.",
+              "url":"https://youtu.be/i1FeOOhNnwU?si=ceLkvzjDiWBw1GaN",
+              "pic":"css.jpg"
+            },
+            "ResponsiveDesign": {
+              "title":"Responsiivne disain",
+              "description": "Responsiivse disaini loomine, et veebilehed oleksid kasutatavad erinevatel seadmetel.",
+              "url":"https://youtu.be/x4u1yp3Msao?si=ciXVO3s-VQMGAp35",
+              "pic":"css.jpg"
+            }
+        }
+    },
+    "Backend": {
+        "Internet": {
+            "HTTP": {
+              "title":"HTTP",
+              "description": "HTTP protokolli kasutamine serveri ja kliendi suhtluses.",
+              "url":"https://youtu.be/wW2A5SZ3GkI?si=G68XOIrrJWX19Psc",
+              "pic":"internet.jpg"
+            },
+            "DomainName": {
+              "title":"Domeeni Nimi",
+              "description": "Domeeninimede haldamine ja nende seostamine IP-aadressidega.",
+              "url":"https://youtu.be/Y4cRx19nhJk?si=CSEBkobKo9FdqzDm",
+              "pic":"internet.jpg"
+            },
+            "Hosting": {
+              "title":"Veebimajutus",
+              "description": "Veebimajutuse teenuste pakkumine ja haldamine.",
+              "url":"https://youtu.be/wXyQiBy0kjk?si=BHZDJF-yR5Hcl19b",
+              "pic":"internet.jpg"
+            }
+        },
+        "PickLanguage": {
+            "JavaScript": {
+              "title":"JavaScript",
+              "description": "JavaScripti kasutamine serveripoolses arenduses.",
+              "url":"https://youtu.be/DHjqpvDnNGE?si=71Sqsvj-fuimDHw9",
+              "pic":"javascript.jpg"
+            },
+            "Go": {
+              "title":"Go",
+              "description": "Go programmeerimiskeel serveripoolses arenduses.",
+              "url":"https://youtu.be/446E-r0rXHI?si=1NP7w_kd9smCTcgO",
+              "pic":"golang.jpg"
+            },
+            "Python": {
+              "title":"Python",
+              "description": "Pythoni kasutamine serveripoolses arenduses.",
+              "url":"https://youtu.be/x7X9w_GIm1s?si=YWgDaMETr3adJIqq",
+              "pic":"python.js"
+            }
+        },
+        "HostingServer": {
+            "GitHub": {
+              "title":"GitHub",
+              "description": "GitHubi kasutamine koodi haldamiseks ja versioonihalduseks.",
+              "url":"https://youtu.be/r8jQ9hVA2qs?si=vc7L1x94AIi61xMT",
+              "pic":"github.jpg"
+            },
+            "GitLab": {
+              "title":"GitLab",
+              "description": "GitLabi kasutamine koodi haldamiseks ja versioonihalduseks.",
+              "url":"https://youtu.be/Jt4Z1vwtXT0?si=AP45u0WheOo7HquK",
+              "pic":"gitlab.jpg"
+            },
+            "Bitbucket": {
+              "title":"Bitbucket",
+              "description": "Bitbucketi kasutamine koodi haldamiseks ja versioonihalduseks.",
+              "url":"https://youtu.be/M44nEyd_5To?si=_leGqHmEfgqS_4oZ",
+              "pic":"bitbucket.jpg"
+            }
+        }
+    },
+    "Fullstack": {
+        "StaticWebpages": {
+            "HTML": {
+              "title":"HTML",
+              "description": "Staatiliste veebilehtede loomine HTML-i abil.",
+              "url":"https://youtu.be/wW2A5SZ3GkI?si=G68XOIrrJWX19Psc"
+            },
+            "CSS": {
+              "title":"CSS",
+              "description": "Staatiliste veebilehtede stiilide loomine CSS-i abil.",
+              "url":"https://youtu.be/Z4pCqK-V_Wo?si=fEdO2rqBQGNLwnhQ"
+            }
+        },
+        "ExternalPackages": {
+            "JavaScript": {
+              "title":"JavaScript",
+              "description": "JavaScripti väliste pakettide kasutamine veebiarenduses.",
+              "url":"https://youtu.be/DHjqpvDnNGE?si=71Sqsvj-fuimDHw9"
+            },
+            "npm": {
+              "title":"npm",
+              "description": "npm-i kasutamine JavaScripti pakettide haldamiseks.",
+              "url":"https://youtu.be/P3aKRdUyr0s?si=wyo0P4EpkcfTktfl"
+            }
+        },
+        "CollaborativeWork": {
+            "Git": {
+              "title":"Git",
+              "description": "Giti kasutamine meeskonnatöös koodi versioonihalduseks.",
+              "url":"https://youtu.be/8JJ101D3knE?si=IWII0p057gzfpFKU"
+            },
+            "GitLab": {
+              "title":"GitLab",
+              "description": "GitLabi kasutamine meeskonnatöös koodi versioonihalduseks.",
+              "url":"https://youtu.be/Jt4Z1vwtXT0?si=AP45u0WheOo7HquK"
+            }
+        }
+    }
+  }
